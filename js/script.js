@@ -118,3 +118,5 @@ function restartQuiz() {
             i === 1 ? "flex" : "none";
     }
 }
+
+    displayResult()
