@@ -56,28 +56,28 @@ function showResult() {
     // IF-ELSE SYSTEM: 12 possible results.
     if (score <= 8) {
         movie = "Treasure Planet";
-        description = "You value friendship, loyalty, and teamwork.";
+        description = "You love to explore and discover new things.";
     } else if (score <= 10) {
         movie = " Isle of the Dogs";
-        description = "You are funny, independent, and enjoy being yourself.";
+        description = "You are strong and can endure the any challenge.";
     } else if (score <= 12) {
         movie = "Ice Age";
-        description = "You are determined and full of potential.";
+        description = "You are loyle and will have your friends back no matter what.";
     } else if (score <= 14) {
         movie = "Despicable Me";
-        description = "You are caring, adventurous, and brave.";
+        description = "You have a troubled past but a heart of gold.";
     } else if (score <= 16) {
         movie = "The Incredibles";
-        description = "You are confident and believe in working together.";
+        description = "You have pride but love for those you care about.";
     } else if (score <= 18) {
         movie = "Monsters, Inc.";
-        description = "You are curious and willing to try new things.";
+        description = "You will do the right thing even if it's difficult.";
     } else if (score <= 20) {
         movie = "Kung Fu Panda";
         description = "You are creative and passionate about your interests.";
     } else if (score <= 22) {
         movie = "Shrek";
-        description = "You appreciate meaningful experiences and adventure.";
+        description = "You appreciate solitude yet have few that are close to you.";
     } else if (score <= 24) {
         movie = "Rango";
         description = "You are thoughtful and care about the world around you.";
@@ -119,4 +119,4 @@ function restartQuiz() {
     }
 }
 
-    displayResult()
+ 
