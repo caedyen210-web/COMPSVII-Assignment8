@@ -164,16 +164,26 @@
           <div class="col-6">
             <button class="btn btn-outline-primary w-100 answer-btn" data-answer="F">Bob Bergen</button>
           </div>
+          <div class="container d-flex justify-content-center" id="quiz-result"
+          style="display: none !important;">
+            <div class="card my-4 p-4 text-center" style="width: 75%;">
+          <h2>Your Animated Movie Result!</h2>
+        <h3 id="result-title"></h3>
+        <p id="result-description"></p>
+        <button class="btn btn-primary" onclick="restartQuiz()">
+      Take Quiz Again
+    </button>
         </div>
       </div>
     </div>
+  </div>
+</div>
+
+
     <!-- End quiz element -->
 
     <!-- Add more quiz elements here -->
-
-
-
-    <div class="container d-flex justify-content-center">
+      <div class="container d-flex justify-content-center">
       <button id="show-result" class="btn btn-success my-4">Show Results</button>
     </div>    
     <!-- Output the result here -->
@@ -183,7 +193,8 @@
         <p id="result-text"></p>
       </div>
     </div>
-    
+
+
     <!-- Connect to your script file here -->
      <script src = "./js/script.js"></script>
 </body>
